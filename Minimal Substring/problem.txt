@@ -1,0 +1,5 @@
+Given a string, return the minimum number of substring into which the string has to be split. Where no letter occurs more than once.
+
+Example:
+- 'world' returns 1 because all letters just occur once
+- 'cycle' returns 2 because it can be split into "cy" and "cle" or "c" and "ycle"
