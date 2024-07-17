@@ -1,0 +1,8 @@
+Check palindrome with special wildcard
+
+Example:
+- ?ab??aa is Palindrome
+- bab??a is NOT Palindrome
+- ?a? is Palindrome
+
+If Palindrome, return the string, if not return "NO"
