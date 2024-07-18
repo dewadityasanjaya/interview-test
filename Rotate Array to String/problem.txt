@@ -1,0 +1,4 @@
+I have array: [2,3,4,1,6,10]
+Because the first integer is 2, it should rotate the array starting from the 2nd position.
+Final array: [4,1,6,10,2,3]
+Return array into string: 4161023
