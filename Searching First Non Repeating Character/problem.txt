@@ -1,0 +1,4 @@
+I have searchingChallenge function with str parameter. It is return the first non-repeating character.
+Example:
+- Input: "abcdef" Output: a
+- Input: "hello world hi hey" Output: w
