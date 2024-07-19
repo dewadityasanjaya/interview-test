@@ -1,0 +1,6 @@
+Given a list of n items accessed in sequence from a system, and a cache with Least Recently Used (LRU) replacement policy, the goal is to determine the minimunm cache size required to ensure at least k requests hit the cache. If it is not possible to achieve k hits, return -1.
+
+Example:
+suppose n = 5, requests = ["item1", "item1", "item3", "item1", "item3"], and k = 1.
+With size of cache as 1, we get:
+the answer is 1.
