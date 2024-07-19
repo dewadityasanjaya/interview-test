@@ -1,0 +1,9 @@
+strArr = ["coderbyte", "3"]
+The first element is a string and the second element will be a number ranging from 1 to 6 represents how many rows to print the string on so that it forms a zig-zag pattern.
+
+The output will be a zigzag pattern with 3 rows
+c   r   e
+ o e  b t
+   d    y
+
+Then, the function should return the string "creoebtdy"
