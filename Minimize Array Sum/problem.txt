@@ -1,0 +1,6 @@
+Given an array of integers, perform some number k of operations. Each operation consists of removing an element from the array, dividing it by 2 and inserting the ceiling of that result back into the array. Minimize the sum of the elements in the final array.
+
+Exampe:
+nums = [10, 20, 8]
+k = 4
+The sum of the final array is 5 + 5 + 4 = 14, and that sum is minimal.
