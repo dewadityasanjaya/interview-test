@@ -1,0 +1,10 @@
+Sekelompok teman bermain video game bersama-sama. Ketika bermain, setiap pemain mendapatkan poin. Di akhir ronde, pemain yang mendapatkan setidaknya ranking tertentu bisa "level up" karakter mereka untuk meningkatkan kemampuan. Dari jumlah skor para pemain di akhir ronde, berapa banyak jumlah pemain yang bisa naik level?
+Catatan: Pemain dengan jumlah skor sama memiliki ranking yang sama , namun pemain berikutnya dengan skor lebih rendah akan diberikan ranking berdasarkan posisi dari semua skor pemain. Contohnya, kalau ada 4 pemain dan 3 orang seri untuk posisi pertama, ranking mereka adalah 1, 1, 1, dan 4.
+Catatan: Tidak ada pemain dengan skor 0 yang bisa level up, tidak peduli anak rankingnya.
+
+Contoh:
+n = 4
+k = 3
+scores = [100, 50, 50, 25]
+
+Ranking para pemain berikut adalah [1,2,2,4] Sebab pemain harus mendapatkan ranking setidaknya 3 untuk level up, hanya 3 pemain pertama yang terkualifikasi. Sehingga, jawabannya adalah 3.
