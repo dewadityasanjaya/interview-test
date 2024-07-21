@@ -1,0 +1,14 @@
+You are building a package delivery system where each delivery job is represented by a tuple containing three elements: the start time, end time, and profit. Your goal is to find the highest profit you can make by scheduling delivery jobs that do not overlap in time.
+To achieve this, you need to choose a subset of jobs that fit together without any overlap in their time intervals, ensuring the total profit is maximized. This involves carefully selecting the jobs in a way that their scheduled times do not conflict while ensuring the cumulative profit from the selected jobs is as high as possible
+
+Example
+jobs = [(1, 3, 50), (3, 5, 20), (4, 6, 70), (6, 9, 60)]
+Explanation: The maximum profit is 120 by scheduling jobs (1, 3, 50) and (4, 6, 70)
+
+Function Description
+Complete the function maxProfit
+maxProfit has the following parameter(s):
+: jobs which is a 2d - Array
+
+Returns
+int: maximum profit from non-overlapping delivery jobs
