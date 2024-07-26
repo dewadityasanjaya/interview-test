@@ -1,0 +1,13 @@
+You have a classroom of students and their friendship connections. The teacher wants to create groups of two students each, where each pair consists of friends and no student should be left alone. Given 2 dimensional array of relations between 2 students, write a function that returns True if it is possible to form these groups, and False if it is no.
+
+Example
+n = 3
+m = 2
+friend_list = [["Evan", "Pooja"], ["David", "Tan"], ["Tan", "David"]]
+
+Returns
+boolean True if all students can be paired, False otherwise.
+
+Constraints
+- Inner array size (m) will always be exactly 2 elements (string[n][2])
+- Outer array size n will always be below 1 x 10^6
